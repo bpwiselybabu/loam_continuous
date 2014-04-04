@@ -331,7 +331,7 @@ int main(int argc, char** argv)
                 }
               }
 
-              if (isInLaserFOV) {
+              if (1 /*isInLaserFOV*/) {
                 laserCloudValidInd[laserCloudValidNum] = i + laserCloudWidth * j 
                                                        + laserCloudWidth * laserCloudHeight * k;
                 laserCloudValidNum++;
